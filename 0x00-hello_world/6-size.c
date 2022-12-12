@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * * main - prints size of characeters
+ * * main - Prints sized of characeters
  * * return: Always 0 (success)
  */
 int main(void)
