@@ -1,5 +1,5 @@
 #include <stdio.h>
-/*
+/**
  * main - print a c program with puts
  * 
  * return: 0
