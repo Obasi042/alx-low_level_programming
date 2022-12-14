@@ -1,15 +1,23 @@
 #include "main.h"
 
 /**
- * _abc - computes the absolute value of an integer
- * @t: the integer to be computed
- * Return: the absolute value
+ * _abs - Entry point
+ * @n: n is an integer
+ * Description: prints the abxolute value of an integer
+ * Return: int
  */
-
-int _abs(int t)
+int _abs(int n)
 {
-	if (t >= 0)
-		return (t);
+	if (n > 0)
+	{
+		return (n);
+	}
+	else if (n < 0)
+	{
+		return (-n);
+	}
 	else
-		return (-t);
+	{
+		return (n);
+	}
 }
